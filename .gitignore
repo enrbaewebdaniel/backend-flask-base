@@ -1,0 +1,54 @@
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de entorno
+*.env
+.env.*
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+
+# SQLite base de datos
+*.sqlite
+*.db
+*.sqlite3
+
+# Archivos de migración (Flask-Migrate)
+migrations/
+
+# Archivos de logs
+*.log
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE y herramientas de desarrollo
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de pruebas y cobertura
+.coverage
+*.cover
+.cache/
+.tox/
+
+# Archivos creados por pip
+pip-log.txt
+
+# Archivos creados por pytest
+.pytest_cache/
+
+# Archivos temporales o de desarrollo
+*.bak
+*.tmp
+*.old
